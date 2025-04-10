@@ -1,0 +1,7 @@
+services:
+  bot:
+    build: .
+    container_name: snake_bot
+    restart: always
+    environment:
+      - TZ=Europe/Moscow 
